@@ -1,123 +1,146 @@
-# 👋 Hi, I'm Nathan — Data Engineer & AI-Driven Platform Architect
+<div align="center">
 
-I am currently building a **next-generation, AI-powered data hub** designed to unify enterprise data, streamline analytics, and deliver real-time intelligence across organizations.  
-My work focuses on combining **modern data engineering**, **scalable cloud architectures**, and **practical AI integration** to create platforms that are robust, fast, and future-proof.
+# Nathan Boulogne
 
----
+**Data Engineer · Analytics Engineer**
 
-## 🚀 Next-Gen AI-Powered Data Hub
+Paris, France · Freelance & full-time
 
-### **Unified Data Intelligence**
-I’m developing a centralized platform that consolidates fragmented systems—CRM, ERP, finance, marketing, support, and analytics—into a **single, trusted data ecosystem**.  
-The goal: eliminate data silos and enable seamless access to clean, consistent, and real-time data.
+</div>
 
-### **Modern Architecture & High-Performance Backend**
-- Built on a **state-of-the-art tech stack**
-- FastAPI + async Python + Polars  
-- High-performance ingestion pipelines  
-- Cloud-native architecture  
-- Scalable, reliable, production-grade infrastructure  
-- Designed for multi-tenant environments and internationalization
-
-### **Industrial-Grade Data Engineering**
-- Real-time and batch data pipelines  
-- Data quality monitoring and anomaly detection  
-- End-to-end pipeline observability  
-- Automated testing, CI/CD, and reproducible environments  
-- Data warehouse integration with modern storage layers
+> I turn business challenges into reliable, actionable data architectures — pipelines, platforms, and analytics products built for impact, not just infrastructure.
+>
+> Co-founder at **Data Readiness Collective**. Currently building **Vantage**, a governed AI data hub for multi-client environments.
 
 ---
 
-## 📊 Custom & Dynamic Dashboards
-
-I build **Next.js dashboards** tailored to business roles (Sales, Marketing, Operations, Executives) with:
-- High-performance charts and visualizations  
-- Granular role-based access  
-- Light/dark mode  
-- Fully responsive UI  
-- Fast, server-driven rendering for large datasets  
+**[nathanboulogne.com](https://nathanboulogne.com)** · [LinkedIn](https://linkedin.com/in/nathan-boulogne) · [GitHub](https://github.com/nathan294)
 
 ---
 
-## 🤖 AI-Driven Analytics & Automation
+## Vantage
 
-The platform includes embedded AI capabilities designed to enhance analytics and streamline decision-making:
+*From chaos to confidence*
 
-### **Smart Cockpit**
-An intelligent overview that delivers:
-- AI-generated summaries of key business metrics  
-- Automated anomaly detection  
-- Strategic insight recommendations  
-- Intelligent alerting based on business context
+A modular data platform that unifies ingestion, transformation, governance, analytics, monitoring, and AI — so teams work from **trusted datasets**, not conflicting spreadsheets.
 
-### **AI Database Assistant**
-Natural-language querying directly on your data:
-- Ask questions in plain English  
-- Generate SQL automatically  
-- Get explanations and summaries  
-- Explore trends and anomalies instantly  
+| | |
+|---|---|
+| **Governance** | KPI catalog, ownership, RBAC, dataset-level permissions |
+| **Quality** | Validation rules, health scores, anomaly detection |
+| **Lineage** | Source → pipeline → dataset → dashboard → AI assistant |
+| **AI analytics** | Smart Cockpit, natural-language queries, AI-assisted Builder |
+
+Multi-tenant and white-label by design. Prefect · PostgreSQL · Python · FastAPI · Next.js · React · ECharts.
 
 ---
 
-## 🔒 Enterprise-Grade Security
+## Expertise
 
-Security and governance are core pillars:
-- End-to-end encryption  
-- Role-based access control (RBAC)  
-- OAuth/SSO integration (Azure AD, Google, Okta, etc.)  
-- Optional MFA  
-- Multi-environment isolation with sandboxing capabilities  
+*Technical depth rooted in business understanding. I build data systems that teams actually use.*
+
+### Data engineering
+
+Production-grade pipelines from raw sources to curated datasets — ingestion, orchestration, transformation, and delivery at scale.
+
+- Industrialized ingestion across dozens of sources: APIs, SaaS exports, databases, marketing platforms, and custom connectors (DLT, Python)
+- Orchestration with Prefect, Airflow, and Dagster — scheduled, monitored, and reproducible workflows
+- Transformation layers with dbt and custom Python, with testing and CI/CD baked into the pipeline lifecycle
+- Data quality monitoring, validation rules, and anomaly detection before metrics reach stakeholders
+
+### Architecture & modeling
+
+Platform and schema design built for scalability, governance, and long-term maintainability.
+
+- Dimensional modeling: star schemas, fact and dimension tables, conformed dimensions across business units
+- Multi-tenant and white-label platform architecture — modular datasets, dashboards, KPIs, and AI capabilities per client
+- Embedded governance: KPI catalogs, dataset ownership, RBAC, lineage, and impact analysis across the full data chain
+- Harmonization of fragmented systems after acquisitions or organic growth — one trusted model from many sources
+
+### Analytics & interfaces
+
+Dashboards and applications that operational teams rely on daily, not static reports nobody opens.
+
+- Custom Next.js dashboards with role-based access, light/dark themes, and responsive layouts
+- High-performance visualizations with ECharts — KPI monitoring, geospatial views, executive and operational views
+- Tableau and Power BI delivery for teams already invested in those ecosystems
+- FastAPI backends exposing curated datasets, models, and business logic to frontends and third-party tools
+
+### AI & decision support
+
+Practical AI layered on governed data — grounded in trusted datasets, not black-box answers.
+
+- Natural-language data assistants: plain-English queries, SQL generation, explanations, and trend surfacing
+- Smart Cockpit: AI-generated summaries, anomaly highlighting, and context-aware alerting
+- ML model productionization on GCP and AWS — APIs integrated with mobile apps, analytics, and internal tools
+- Use cases shipped: carbon footprint estimation, receipt OCR pipelines, renewal prediction, segmentation, and attribution
+
+### Cloud & infrastructure
+
+Hands-on AWS and GCP. Architectures tuned for performance, cost, and operational reliability.
+
+- Cloud-native pipelines, containerized workloads, and Kubernetes-based orchestration
+- Warehousing across Snowflake, BigQuery, PostgreSQL, Redshift, and Databricks
+- Streaming with Kafka and Google Pub/Sub where real-time matters
+- Docker, GitHub Actions, and GitLab CI/CD for reproducible environments and safe deployments
+
+### Business fluency & ownership
+
+From fuzzy problem to shipped solution — with stakeholders involved at every step.
+
+- Industry contexts: **marketing & growth**, **transport & mobility**, **fintech**, **software publishers & SaaS**
+- Translating business questions into architectures, KPIs, and delivery roadmaps stakeholders can trust
+- End-to-end ownership: scoping, architecture, build, deployment, and handover to operational teams
+- Accelerating time-to-insight for marketing, product, finance, and leadership — not just keeping pipelines alive
 
 ---
 
-## 🧪 Safe Exploration Environment
+## Stack
 
-A dedicated **sandbox** where users can:
-- Explore sanitized datasets  
-- Test visualizations  
-- Prototype queries  
-- Experiment safely without touching production data  
-
----
-
-## ⚡ Real-Time Analytics for Operational Excellence
-
-The platform provides:
-- Real-time KPIs  
-- Instant metric updates  
-- Trend monitoring  
-- Event-driven insights  
-- High-speed data aggregation powered by Polars and async pipelines  
+```
+Ingestion       DLT · custom connectors
+Orchestration   Prefect · Airflow · Dagster
+Warehouse       Snowflake · BigQuery · PostgreSQL · Redshift · Databricks
+Transform       dbt · Python
+Apps & BI       Next.js · React · TypeScript · ECharts · Tableau · Power BI
+APIs            FastAPI
+Streaming       Kafka · Google Pub/Sub
+Infra           AWS · GCP · Docker · Kubernetes · GitHub Actions · GitLab CI
+```
 
 ---
 
-### 💼 Tech Stack Highlights
+## Experience
 
-**Backend:** FastAPI · Python · Polars · SQLAlchemy (async)  
-**Frontend:** Next.js · React · TypeScript · ECharts  
-**Data & Infra:** Postgres · Redis · Docker · Kubernetes · Cloud-native services  
-**AI:** LLM-based assistants · Automated insights · Embeddings · Natural language interfaces  
-
----
-
-If you're interested in scalable data architectures, AI-integrated analytics, or next-gen data platforms, feel free to connect or follow my work.
-
-
-
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/kiligan_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/nathan-boulogne-9163151bb) 
-
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black) ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=nathan294&theme=neon&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=nathan294&theme=neon&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=nathan294&theme=neon&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
+| | |
+|---|---|
+| **Co-founder** · Data Readiness Collective | Vantage platform & bespoke data platform builds |
+| **Data Technical Lead** · Bluprintx | Data entity architecture, AWS pipelines, internal data hub |
+| **Data & Analytics Architect** · Colisport | Analytics platform, AI assistant, geospatial dashboards |
+| **Data Expert** · CI-Group | Enterprise delivery, pipeline orchestration |
+| **Lead Data Scientist** · Onlyone | ML APIs on GCP, receipt OCR, fintech models |
 
 ---
-[![](https://visitcount.itsvg.in/api?id=nathan294&icon=0&color=2)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/nathan-boulogne)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/kiligan_)
+[![Website](https://img.shields.io/badge/Website-nathanboulogne.com-111?style=flat-square)](https://nathanboulogne.com)
+
+<br/>
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Prefect](https://img.shields.io/badge/Prefect-070E27?style=flat-square&logo=prefect&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-000?style=flat-square&logo=apachekafka&logoColor=white)
+
+</div>
